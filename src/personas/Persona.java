@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
  * @version 2
  * @param <String>
  */
-public class Persona<String> {
+public class Persona {
 
     private String dni;
     private String nombre;

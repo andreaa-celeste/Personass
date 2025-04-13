@@ -12,7 +12,7 @@ public class PruebaPersona {
      * Método principal de la clase
      * @param args the command line arguments
      */
-    public static void main(-------[] args) {
+    public static void main(String[] args) {
     	
          // Creamos varias instancias de personas
          Persona per1 = new Persona("20222444L", "María", "Carcelén Sánchez", 67);
