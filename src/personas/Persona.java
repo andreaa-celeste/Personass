@@ -5,8 +5,9 @@ import java.util.regex.Pattern;
  * Clase que almacena y maneja los atributos de las personas
  * @autor IES Virgen de la Paloma
  * @version 2
+ * @param <String>
  */
-public class Persona {
+public class Persona<String> {
 
     private String dni;
     private String nombre;
@@ -14,7 +15,7 @@ public class Persona {
     private int edad;
 
     static final int MAYORIA_EDAD = 18;
-    static final int JUBILACION_EDAD = 65;
+    static final int JUBILACION_EDAD = 67;
 
     /**
      * Constructor
